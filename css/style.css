@@ -26,9 +26,10 @@ nav {
 }
 
 .logo {
-  height: 30px;
+  height: 35px;
   vertical-align: middle;
   color: white;
+  padding-bottom: 8px;
 }
 
 ul li {
@@ -130,6 +131,7 @@ ul li {
   text-align: center;
   padding: 30px 0;
   font-family: 'Maven Pro', sans-serif;
+  overflow: hidden;
 }
 
 .card img {
@@ -142,7 +144,7 @@ ul li {
   padding: 30px 0;
 }
 
-hr {
+.card hr {
   color: #979797;
   width: 20%;
   margin: 0 auto;
@@ -153,4 +155,32 @@ hr {
   font-size: 20px;
   padding: 10px;
   line-height: 30px;
+}
+
+.board {
+  height: 500px;
+  width: 50%;
+  float: left;
+  padding: 40px 10px;
+  border-top: 1px solid #979797;
+  position: relative;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.board img {
+  height: 400px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.board h1 {
+  font-size: 40px;
+}
+
+.board h2 {
+  color: #979797;
+  font-size: 25px;
+  padding: 30px 0
 }
