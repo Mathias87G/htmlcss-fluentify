@@ -184,3 +184,32 @@ ul li {
   font-size: 25px;
   padding: 30px 0
 }
+
+.struttura {
+  font-size: 40px;
+  font-family: 'Maven Pro', sans-serif;
+  line-height: 150px;
+  font-weight: bolder;
+  float:left;
+}
+
+.selection {
+  color: #979797;
+  font-size: 20px;
+  float:right;
+  line-height: 150px;
+}
+
+.selezione {
+  font-family: 'Maven Pro', sans-serif;
+  background-color: #d3d3d3;
+  color: #979797;
+  font-size: 15px;
+  width: 120px;
+  margin: 0 20px;
+}
+
+.selection .piano {
+  padding: 20px 10px;
+  font-size: 18px;
+}
