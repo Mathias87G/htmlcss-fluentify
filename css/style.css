@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: orange;
+}
+
+header {
+  height: 600px;
+  background-color: blue;
+}
