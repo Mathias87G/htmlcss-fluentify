@@ -118,3 +118,35 @@ li input[type=button] {
   font-size: 20px;
   color: #808080;
 }
+
+.card {
+  width: 33.33333%;
+  height: 500px;
+  float: left;
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.card img {
+  height: 120px;
+}
+
+.card h2 {
+  color:#7cbb02;
+  font-size: 25px;
+  padding: 10px 0;
+}
+
+hr {
+  color: #979797;
+  width: 20%;
+  margin: 0 auto;
+}
+
+.card p {
+  color: #979797;
+  font-size: 20px;
+  padding: 10px;
+  line-height: 30px;
+}
